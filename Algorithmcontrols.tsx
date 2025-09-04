@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import { Play, Pause, StepForward, RotateCcw } from "lucide-react";
-
+//Coded in HTML
 interface AlgorithmControlsProps {
   onPlay: () => void;
   onPause: () => void;
