@@ -61,7 +61,7 @@ export default function MazeCanvas({
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
     // Draw cells
-    for (let i = 0; i < rows; i++) {
+    for (let k = 0; i < rows; i++) {
       for (let j = 0; j < cols; j++) {
         const x = j * cellSize;
         const y = i * cellSize;
