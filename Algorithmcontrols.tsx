@@ -12,7 +12,7 @@ interface AlgorithmControlsProps {
   isRunning: boolean;
   isPaused: boolean;
 }
-
+// Restrat algorithm 
 export default function AlgorithmControls({
   onPlay,
   onPause,
@@ -79,5 +79,5 @@ export default function AlgorithmControls({
         />
       </div>
     </div>
-  );
+  )
 }
