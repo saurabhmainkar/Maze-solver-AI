@@ -36,12 +36,7 @@ maze-solver/
 cd maze-solver
 2. Run the solver
 python main.py mazes/maze1.txt --method bfs
-3. Example output
-#########
-#S  #   #
-# ## ## #
-#    # G#
-#########
+
 🧠 Algorithms
 
 DFS: Explores as far as possible before backtracking (may not find the shortest path).
