@@ -1,28 +1,72 @@
-# 🎓 Student Marks Management System
+Maze Solver 🧩
 
-A web-based application that allows teachers to enter students' marks and automatically assigns grades based on the stored data. The system provides a clean interface for managing academic records efficiently.
+A simple maze solver that finds a path from the start to the goal using classic pathfinding algorithms. This project demonstrates fundamental computer science concepts like graph traversal, recursion, and search strategies.
 
-## ✨ Features
+🚀 Features
 
-- 🧑‍🏫 Teacher dashboard to enter and manage student marks  
-- 🧮 Auto-grade generation based on entered scores  
-- 🗃️ Marks stored in a database for persistent access  
-- 🧑‍🎓 Students can view their grades securely  
-- 🔐 Basic authentication for teachers and students (optional)
+Supports multiple solving strategies:
 
-## 🛠️ Tech Stack
+Depth-First Search (DFS)
 
-- Frontend: HTML, CSS, JavaScript  
-- Backend: Python (Flask / Django) or Node.js *(you can specify)*  
-- Database: SQLite / MySQL / Firebase *(depending on your setup)*  
-- Hosting: Replit (initial), GitHub (repo)
+Breadth-First Search (BFS)
 
-## 📸 Screenshots
+(Optional: A* if implemented)
 
-*(Add screenshots of your app here — UI of the teacher input page, student result view, etc.)*
+Reads mazes from text files or 2D arrays
 
-## 🧪 How to Use
+Visualizes the maze and solution path in the console (or GUI, if added)
 
-1. Clone the repository:
-   ```bash
+Detects unsolvable mazes
    git clone https://github.com/yourusername/student-marks-management-system.git
+maze-solver/
+│── src/              # Source code
+│   ├── maze.py       # Maze class (parsing & representation)
+│   ├── solver.py     # Pathfinding algorithms
+│   └── main.py       # Entry point
+│
+│── mazes/            # Sample maze text files
+│   ├── maze1.txt
+│   └── maze2.txt
+│
+│── README.md         # Project description
+
+🖥️ Usage
+1. Clone the repo
+2. git clone https://github.com/yourusername/maze-solver.git
+cd maze-solver
+2. Run the solver
+python main.py mazes/maze1.txt --method bfs
+3. Example output
+#########
+#S  #   #
+# ## ## #
+#    # G#
+#########
+🧠 Algorithms
+
+DFS: Explores as far as possible before backtracking (may not find the shortest path).
+
+BFS: Explores level by level, always finds the shortest path if one exists.
+
+A* (if implemented): Uses heuristics for efficient solving.
+
+📸 Screenshots (Optional)
+
+Add terminal or GUI screenshots of your maze being solved.
+
+🛠️ Tech Stack
+
+Language: Python (or C++/Java if different)
+
+Paradigm: Object-Oriented / Procedural
+
+Libraries: Standard libraries only (unless you added visualization tools)
+
+🤝 Contributing
+
+Pull requests are welcome! If you’d like to add new algorithms (Dijkstra, Greedy, etc.) or visualization, feel free to fork and submit.
+
+📜 License
+
+This project is open-source and available under the MIT License
+.
