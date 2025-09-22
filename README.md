@@ -45,7 +45,8 @@ BFS: Explores level by level, always finds the shortest path if one exists.
 
 A* (if implemented): Uses heuristics for efficient solving.
 
-📸 Screenshots ![Uploading Screenshot 2025-09-15 132835.png…]()
+📸 Screenshots <img width="2556" height="1524" alt="Screenshot 2025-09-15 132835" src="https://github.com/user-attachments/assets/3026a431-ca3e-46e3-b2b3-097d45b905cb" />
+
 
 
 Add terminal or GUI screenshots of your maze being solved.
