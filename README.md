@@ -53,9 +53,9 @@ Add terminal or GUI screenshots of your maze being solved.
 
 🛠️ Tech Stack
 
-Language: Python (or C++/Java if different)
+Language: Python Javascript HTML
 
-Paradigm: Object-Oriented / Procedural
+Paradigm: Object-Oriented 
 
 Libraries: Standard libraries only (unless you added visualization tools)
 
