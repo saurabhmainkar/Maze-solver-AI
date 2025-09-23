@@ -10,7 +10,7 @@ Depth-First Search (DFS)
 
 Breadth-First Search (BFS)
 
-(Optional: A* if implemented)
+(: A* Algorithmm used
 
 Reads mazes from text files or 2D arrays
 
