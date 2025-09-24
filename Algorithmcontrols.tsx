@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import { Play, Pause, StepForward, RotateCcw } from "lucide-react";
-//Coded in HTML
+//Coded in HTML not workung properly check again
 interface AlgorithmControlsProps {
   onPlay: () => void;
   onPause: () => void;
@@ -40,7 +40,7 @@ export default function AlgorithmControls({
           onClick={onPause}
           disabled={!isRunning || isPaused}
           className="bg-gray-500 hover:bg-gray-600 text-white font-medium"
-        >
+        > 
           <Pause className="h-5 w-5 mr-1" />
           Pause
         </Button>
@@ -63,7 +63,7 @@ export default function AlgorithmControls({
           Reset
         </Button>
       </div>
-      
+     
       <div className="flex items-center gap-2 ml-auto">
         <label htmlFor="speedSlider" className="text-sm font-medium text-gray-700">
           Speed:
